@@ -503,24 +503,21 @@ jobs:
       - id: version
         name: Extract version metadata
         uses: flex-development/manver-action@1.1.0
-        with:
-          manifest: ${{ steps.manifest.outputs.result }}
       - id: version-update
         name: Update package.json version
         uses: shaneapowell/github-tweak-the-json@v1
         with:
           action: write
-          filename: ${{ steps.manifest.outputs.result }}
+          filename: ./package.json
           field: version
           value: ${{ steps.version.outputs.build }}
       - id: tarball
         name: Get tarball path
         run: |
-          echo "result=${{ format('@{0}-{1}-{2}.tgz', github.repository_owner, matrix.package, steps.version.outputs.build) }}" >>$GITHUB_OUTPUT
+          echo "result=${{ format('{0}-{1}-{2}.tgz', github.repository_owner, github.event.repository.name, steps.version.outputs.build) }}" >>$GITHUB_OUTPUT
       - id: pack
         name: Pack project
-        run: yarn pack --out ${{ steps.tarball.outputs.result }}
-        working-directory: ${{ steps.directory.outputs.result }}
+        run: npm pack
       - id: attw
         name: Analyze types distribution
         run: attw ${{ steps.tarball.outputs.result }}
