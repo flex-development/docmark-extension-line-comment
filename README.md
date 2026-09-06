@@ -23,6 +23,8 @@
 - [Install](#install)
 - [Use](#use)
 - [API](#api)
+  - [`lineComments`][api-line-comments]
+  - [`lineComment`][api-line-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -57,14 +59,14 @@ yarn add @flex-development/docmark-extension-line-comment
 In Deno with [`esm.sh`][esmsh]:
 
 ```ts
-import { lineComment } from 'https://esm.sh/@flex-development/docmark-extension-line-comment'
+import { lineComments } from 'https://esm.sh/@flex-development/docmark-extension-line-comment'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import { lineComment } from 'https://esm.sh/@flex-development/docmark-extension-line-comment'
+  import { lineComments } from 'https://esm.sh/@flex-development/docmark-extension-line-comment'
 </script>
 ```
 
@@ -74,7 +76,17 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-**TODO**: api
+This package exports the identifiers [`lineComments`][api-line-comments] and [`lineComment`][api-line-comment].
+
+The default export is `lineComments`.
+
+### [`lineComments`](./src/line-comments.mts)
+
+**TODO**: `lineComments`
+
+### [`lineComment`](./src/line-comment.mts)
+
+**TODO**: `lineComment`
 
 ## Types
 
@@ -97,6 +109,10 @@ By interacting with this repository, organization, or community you agree to abi
 
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
+
+[api-line-comment]: #linecomment
+
+[api-line-comments]: #linecomments
 
 [docmark]: https://github.com/flex-development/docmark
 

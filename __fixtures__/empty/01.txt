@@ -1,0 +1,6 @@
+            /**
+             * The next column.
+             *
+             * @const {number} n
+             */
+            const n: number = Math.ceil(column/tabSize)*tabSize

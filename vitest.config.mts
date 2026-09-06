@@ -184,10 +184,10 @@ function config(this: void, env: ConfigEnv): ViteUserConfig {
       restoreMocks: true,
       server: {
         deps: { // required to apply custom conditions to external deps.
-          inline: ['devlop']
+          inline: ['@flex-development/pathe', 'devlop']
         }
       },
-      setupFiles: [],
+      setupFiles: ['./__tests__/setup/chai.mts'],
       snapshotFormat: {
         callToJSON: true,
         min: false,
