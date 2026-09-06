@@ -159,7 +159,7 @@ jobs:
         name: Upload version manifest
         uses: actions/upload-artifact@v7.0.1
         with:
-          name: ./versions/${{ needs.preflight.outputs.version }}.yml
+          name: ${{ needs.preflight.outputs.version }}.yml
           path: .yarn/versions/*.yml
       - id: bump
         name: Bump manifest version to ${{ needs.preflight.outputs.version }}
