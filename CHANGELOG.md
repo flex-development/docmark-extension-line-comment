@@ -1,3 +1,9 @@
+## [1.0.0-alpha.2](https://github.com/flex-development/docmark-extension-line-comment/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2026-09-05)
+
+### :package: Build
+
+- [[`15e9b7a`](https://github.com/flex-development/docmark-extension-line-comment/commit/15e9b7a23c13dca8c0bae62aa70a5553b4a56c5b)] **deps:** remove unused dependencies
+
 ## 1.0.0-alpha.1 (2026-09-05)
 
 ### :robot: Continuous Integration
@@ -12,5 +18,6 @@
 
 - [[`e76e555`](https://github.com/flex-development/docmark-extension-line-comment/commit/e76e5552428de4c2f49f699724b2a4d18777d144)] initial commit
 - [[`effca9e`](https://github.com/flex-development/docmark-extension-line-comment/commit/effca9e3d58f608c19dfbf252f9c8f99e6f38847)] update `.gitconfig` template
+
 
 
