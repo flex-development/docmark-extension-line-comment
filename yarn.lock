@@ -1691,8 +1691,8 @@ __metadata:
     "@flex-development/commitlint-config": "npm:1.0.1"
     "@flex-development/docmark": "npm:1.0.0-alpha.1"
     "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-util-symbol": "npm:1.1.0-alpha.1"
+    "@flex-development/docmark-util-types": "npm:1.1.0-alpha.1"
     "@flex-development/eslint-config": "npm:1.1.1"
     "@flex-development/export-regex": "npm:2.0.0"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
@@ -1732,6 +1732,7 @@ __metadata:
     rollup-plugin-cleanup: "npm:3.2.1"
     rollup-plugin-dts: "npm:6.5.1"
     sh-syntax: "npm:0.6.0"
+    to-vfile: "npm:8.0.0"
     trash-cli: "npm:7.2.0"
     ts-dedent: "npm:2.3.0"
     tsx: "npm:4.23.13"
@@ -1797,6 +1798,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flex-development/docmark-util-symbol@npm:1.1.0-alpha.1":
+  version: 1.1.0-alpha.1
+  resolution: "@flex-development/docmark-util-symbol@npm:1.1.0-alpha.1"
+  checksum: 10/822cc18301ae8dc52278a027e686f44ecf6db844de37d4a68ec9db8dee749067a4f7e86ed6798ef86f844e1406db69e5fc24241bc4017a2096fba5f34bab9bdc
+  languageName: node
+  linkType: hard
+
 "@flex-development/docmark-util-types@npm:1.0.0-alpha.1":
   version: 1.0.0-alpha.1
   resolution: "@flex-development/docmark-util-types@npm:1.0.0-alpha.1"
@@ -1805,6 +1813,17 @@ __metadata:
     "@types/debug": "npm:4.1.13"
     micromark-util-types: "npm:2.0.2"
   checksum: 10/876ddfd842bc12b2a8008606cd4d8d7f6d83b5119c43803b986598b828e1296ffb2e33d22904bc4c613945f64daabef7e310ad732f69026d349adfb63dec8f54
+  languageName: node
+  linkType: hard
+
+"@flex-development/docmark-util-types@npm:1.1.0-alpha.1":
+  version: 1.1.0-alpha.1
+  resolution: "@flex-development/docmark-util-types@npm:1.1.0-alpha.1"
+  dependencies:
+    "@flex-development/mark": "npm:1.0.0-alpha.4"
+    "@types/debug": "npm:4.1.13"
+    micromark-util-types: "npm:2.0.2"
+  checksum: 10/832e4b78dfc268adaa1c7f01dcf28a63749919c60df4a83fbe334107df780a4072430f054f247e0632001b97d8f895ea5bc5104abb255cda19a4cba42ae88c98
   languageName: node
   linkType: hard
 
@@ -11779,7 +11798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"to-vfile@npm:^8.0.0":
+"to-vfile@npm:8.0.0, to-vfile@npm:^8.0.0":
   version: 8.0.0
   resolution: "to-vfile@npm:8.0.0"
   dependencies:

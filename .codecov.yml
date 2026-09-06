@@ -84,4 +84,5 @@ ignore:
   - '**/types/'
 
 profiling:
-  critical_files_paths: []
+  critical_files_paths:
+    - src/line-comment.mts

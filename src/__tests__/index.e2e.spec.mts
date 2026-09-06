@@ -8,6 +8,6 @@ import { describe, expect, it } from 'vitest'
 
 describe('e2e:docmark-extension-line-comment', () => {
   it('should expose public api', () => {
-    expect(Object.keys(testSubject as Record<string, any>)).toMatchSnapshot()
+    expect(Object.keys(testSubject)).toMatchSnapshot()
   })
 })

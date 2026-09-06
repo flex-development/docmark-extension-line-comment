@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:lineComments > should be extension 1`] = `
+{
+  "source": {
+    "47": {
+      "continuation": {
+        "tokenize": [Function tokenizeLineCommentContinuation],
+      },
+      "exit": [Function exitLineComment],
+      "name": "comment:line",
+      "tokenize": [Function tokenizeLineComment],
+    },
+  },
+}
+`;
