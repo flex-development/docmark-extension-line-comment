@@ -6,7 +6,7 @@ exports[`unit:lineComment > should be named comment construct 1`] = `
     "tokenize": [Function tokenizeLineCommentContinuation],
   },
   "exit": [Function exitLineComment],
-  "name": "comment:line",
+  "name": "comment:slash",
   "tokenize": [Function tokenizeLineComment],
 }
 `;

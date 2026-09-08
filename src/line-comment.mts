@@ -30,7 +30,7 @@ import { ok as assert } from 'devlop'
 const lineComment: ContinuableConstruct & NamedConstruct = {
   continuation: { tokenize: tokenizeLineCommentContinuation },
   exit: exitLineComment,
-  name: `${tt.comment}:${kind.line}`,
+  name: `${tt.comment}:${kind.slash}`,
   tokenize: tokenizeLineComment
 }
 
@@ -120,7 +120,7 @@ function tokenizeLineComment(
 
     // open the comment container if not already open.
     if (!self.containerState.open) {
-      effects.enter(tt.comment, { _container: true, _kind: kind.line })
+      effects.enter(tt.comment, { _container: true, _kind: kind.slash })
       self.containerState.open = true
     }
 
@@ -241,7 +241,8 @@ function tokenizeLineComment(
 /**
  * Continue tokenizing a line comment.
  *
- * A continuation line may contain optional padding a comment line prefix.\
+ * A continuation line may contain optional padding before
+ * a comment line prefix.\
  * The existing comment container remains open while the {@linkcode lineComment}
  * construct is attempted again.
  *

@@ -8,7 +8,7 @@ exports[`unit:lineComments > should be extension 1`] = `
         "tokenize": [Function tokenizeLineCommentContinuation],
       },
       "exit": [Function exitLineComment],
-      "name": "comment:line",
+      "name": "comment:slash",
       "tokenize": [Function tokenizeLineComment],
     },
   },
