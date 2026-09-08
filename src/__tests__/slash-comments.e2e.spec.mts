@@ -1,11 +1,11 @@
 /**
- * @file E2E Tests - lineComments
- * @module docmark-extension-line-comment/tests/e2e/lineComments
+ * @file E2E Tests - slashComments
+ * @module docmark-extension-slash-comment/tests/e2e/slashComments
  */
 
 import snapshot from '#tests/utils/snapshot-events'
 import { parse, postprocess, preprocess } from '@flex-development/docmark'
-import testSubject from '@flex-development/docmark-extension-line-comment'
+import testSubject from '@flex-development/docmark-extension-slash-comment'
 import { tt } from '@flex-development/docmark-util-symbol'
 import type {
   Chunk,
@@ -16,7 +16,7 @@ import pathe from '@flex-development/pathe'
 import { readSync as read } from 'to-vfile'
 import { beforeAll, describe, expect, it } from 'vitest'
 
-describe('e2e:lineComments', () => {
+describe('e2e:slashComments', () => {
   let directory: string
   let options: ParseOptions
 
@@ -27,7 +27,7 @@ describe('e2e:lineComments', () => {
 
   it.each<[path: string]>([
     ['empty/01.txt']
-  ])('should handle no line comments (%j)', path => {
+  ])('should handle no slash comments (%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))
     const slice: Chunk[] = preprocess()(file, undefined, true)
@@ -53,7 +53,7 @@ describe('e2e:lineComments', () => {
     ['multiline/02.txt'],
     ['modules/01.txt'],
     ['modules/02.txt']
-  ])('should parse line comments (%j,%j)', path => {
+  ])('should parse slash comments (%j,%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))
     const slice: Chunk[] = preprocess()(file, undefined, true)

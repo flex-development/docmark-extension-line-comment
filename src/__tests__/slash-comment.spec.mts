@@ -1,12 +1,12 @@
 /**
- * @file Unit Tests - lineComment
- * @module docmark-extension-line-comment/tests/unit/lineComment
+ * @file Unit Tests - slashComment
+ * @module docmark-extension-slash-comment/tests/unit/slashComment
  */
 
 import { describe, expect, it } from 'vitest'
-import testSubject from '../line-comment.mts'
+import testSubject from '../slash-comment.mts'
 
-describe('unit:lineComment', () => {
+describe('unit:slashComment', () => {
   it('should be named comment construct', () => {
     expect(testSubject).to.have.property('continuation')
     expect(testSubject).to.have.property('name').be.a('string')

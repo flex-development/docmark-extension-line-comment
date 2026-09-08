@@ -1,20 +1,20 @@
-# docmark-extension-line-comment
+# docmark-extension-slash-comment
 
-[![github release](https://img.shields.io/github/v/release/flex-development/docmark-extension-line-comment.svg?include_prereleases\&sort=date)](https://github.com/flex-development/docmark-extension-line-comment/releases/latest)
-[![npm](https://img.shields.io/npm/v/@flex-development/docmark-extension-line-comment.svg)](https://npmjs.com/package/@flex-development/docmark-extension-line-comment)
-[![npm downloads](https://img.shields.io/npm/dm/@flex-development/docmark-extension-line-comment.svg)](https://www.npmcharts.com/compare/@flex-development/docmark-extension-line-comment?interval=30)
-[![minified bundle size](https://badgen.net/bundlephobia/min/@flex-development/docmark-extension-line-comment?cache)](https://bundlephobia.com/package/@flex-development/docmark-extension-line-comment)
-[![install size](https://packagephobia.now.sh/badge?p=@flex-development/docmark-extension-line-comment)](https://packagephobia.now.sh/result?p=@flex-development/docmark-extension-line-comment)
-[![tree shaking suppport](https://badgen.net/bundlephobia/tree-shaking/@flex-development/docmark-extension-line-comment)](https://bundlephobia.com/package/@flex-development/docmark-extension-line-comment)
-[![codecov](https://codecov.io/github/flex-development/docmark-extension-line-comment/graph/badge.svg?token=ckvqqdDU6t)](https://codecov.io/github/flex-development/docmark-extension-line-comment)
+[![github release](https://img.shields.io/github/v/release/flex-development/docmark-extension-slash-comment.svg?include_prereleases\&sort=date)](https://github.com/flex-development/docmark-extension-slash-comment/releases/latest)
+[![npm](https://img.shields.io/npm/v/@flex-development/docmark-extension-slash-comment.svg)](https://npmjs.com/package/@flex-development/docmark-extension-slash-comment)
+[![npm downloads](https://img.shields.io/npm/dm/@flex-development/docmark-extension-slash-comment.svg)](https://www.npmcharts.com/compare/@flex-development/docmark-extension-slash-comment?interval=30)
+[![minified bundle size](https://badgen.net/bundlephobia/min/@flex-development/docmark-extension-slash-comment?cache)](https://bundlephobia.com/package/@flex-development/docmark-extension-slash-comment)
+[![install size](https://packagephobia.now.sh/badge?p=@flex-development/docmark-extension-slash-comment)](https://packagephobia.now.sh/result?p=@flex-development/docmark-extension-slash-comment)
+[![tree shaking suppport](https://badgen.net/bundlephobia/tree-shaking/@flex-development/docmark-extension-slash-comment)](https://bundlephobia.com/package/@flex-development/docmark-extension-slash-comment)
+[![codecov](https://codecov.io/github/flex-development/docmark-extension-slash-comment/graph/badge.svg?token=ckvqqdDU6t)](https://codecov.io/github/flex-development/docmark-extension-slash-comment)
 [![module type: esm](https://img.shields.io/badge/module%20type-esm-brightgreen)](https://github.com/voxpelli/badges-cjs-esm)
-[![license](https://img.shields.io/github/license/flex-development/docmark-extension-line-comment.svg)](LICENSE.md)
+[![license](https://img.shields.io/github/license/flex-development/docmark-extension-slash-comment.svg)](LICENSE.md)
 [![conventional commits](https://img.shields.io/badge/-conventional%20commits-fe5196?logo=conventional-commits\&logoColor=ffffff)](https://conventionalcommits.org)
 [![typescript](https://img.shields.io/badge/-typescript-3178c6?logo=typescript\&logoColor=ffffff)](https://typescriptlang.org)
 [![vitest](https://img.shields.io/badge/-vitest-6e9f18?style=flat\&logo=vitest\&logoColor=ffffff)](https://vitest.dev)
 [![yarn](https://img.shields.io/badge/-yarn-2c8ebb?style=flat\&logo=yarn\&logoColor=ffffff)](https://yarnpkg.com)
 
-[`docmark`][docmark] extension to parse line comments.
+[`docmark`][docmark] extension to parse slash comments.
 
 ## Contents
 
@@ -23,8 +23,8 @@
 - [Install](#install)
 - [Use](#use)
 - [API](#api)
-  - [`lineComments`][api-line-comments]
-  - [`lineComment`][api-line-comment]
+  - [`slashComments`][api-slash-comments]
+  - [`slashComment`][api-slash-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -46,7 +46,7 @@ This package is [ESM only][esm].
 In Node.js with [yarn][]:
 
 ```sh
-yarn add @flex-development/docmark-extension-line-comment
+yarn add @flex-development/docmark-extension-slash-comment
 ```
 
 <blockquote>
@@ -59,14 +59,14 @@ yarn add @flex-development/docmark-extension-line-comment
 In Deno with [`esm.sh`][esmsh]:
 
 ```ts
-import { lineComments } from 'https://esm.sh/@flex-development/docmark-extension-line-comment'
+import { slashComments } from 'https://esm.sh/@flex-development/docmark-extension-slash-comment'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import { lineComments } from 'https://esm.sh/@flex-development/docmark-extension-line-comment'
+  import { slashComments } from 'https://esm.sh/@flex-development/docmark-extension-slash-comment'
 </script>
 ```
 
@@ -76,17 +76,17 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-This package exports the identifiers [`lineComments`][api-line-comments] and [`lineComment`][api-line-comment].
+This package exports the identifiers [`slashComments`][api-slash-comments] and [`slashComment`][api-slash-comment].
 
-The default export is `lineComments`.
+The default export is `slashComments`.
 
-### [`lineComments`](./src/line-comments.mts)
+### [`slashComments`](./src/slash-comments.mts)
 
-**TODO**: `lineComments`
+**TODO**: `slashComments`
 
-### [`lineComment`](./src/line-comment.mts)
+### [`slashComment`](./src/slash-comment.mts)
 
-**TODO**: `lineComment`
+**TODO**: `slashComment`
 
 ## Types
 
@@ -96,7 +96,7 @@ This package is fully typed with [TypeScript][].
 
 ### Version
 
-docmark-extension-line-comment adheres to [semver][].
+docmark-extension-slash-comment adheres to [semver][].
 
 ### Contribute
 
@@ -110,9 +110,9 @@ By interacting with this repository, organization, or community you agree to abi
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
 
-[api-line-comment]: #linecomment
+[api-slash-comment]: #slashComment
 
-[api-line-comments]: #linecomments
+[api-slash-comments]: #slashComments
 
 [docmark]: https://github.com/flex-development/docmark
 

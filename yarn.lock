@@ -1679,9 +1679,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-extension-line-comment@workspace:.":
+"@flex-development/docmark-extension-slash-comment@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@flex-development/docmark-extension-line-comment@workspace:."
+  resolution: "@flex-development/docmark-extension-slash-comment@workspace:."
   dependencies:
     "@arethetypeswrong/cli": "npm:0.18.5"
     "@codecov/rollup-plugin": "npm:2.0.1"

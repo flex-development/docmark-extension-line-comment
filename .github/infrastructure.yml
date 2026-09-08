@@ -182,21 +182,29 @@ repository:
   automated_security_fixes: true
   default_branch: main
   delete_branch_on_merge: true
-  description: docmark extension to parse line comments
+  description: docmark extension to parse slash comments
   has_issues: true
   has_projects: true
   has_wiki: false
-  homepage: https://github.com/flex-development/docmark-extension-line-comment
+  homepage: https://github.com/flex-development/docmark-extension-slash-comment
   is_template: false
   private: false
   squash_merge_commit_message: BLANK
   squash_merge_commit_title: PR_TITLE
   topics:
+    - c
     - comment
     - docmark
     - documentation
+    - go
     - js
-    - line-comment
+    - json5
+    - jsonc
+    - kotlin
+    - php
+    - rust
+    - slash-comment
+    - swift
     - ts
   visibility: public
   vulnerability_alerts: true

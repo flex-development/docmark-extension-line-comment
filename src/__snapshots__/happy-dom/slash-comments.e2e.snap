@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`e2e:lineComments > should parse line comments ("modules/01.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("modules/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -2919,7 +2919,7 @@ exports[`e2e:lineComments > should parse line comments ("modules/01.txt",undefin
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("modules/02.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("modules/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -13828,7 +13828,7 @@ exports[`e2e:lineComments > should parse line comments ("modules/02.txt",undefin
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("multiline/01.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("multiline/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -14687,7 +14687,7 @@ exports[`e2e:lineComments > should parse line comments ("multiline/01.txt",undef
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("multiline/02.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("multiline/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -15748,7 +15748,7 @@ exports[`e2e:lineComments > should parse line comments ("multiline/02.txt",undef
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("no-eol/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -15758,9 +15758,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -15950,9 +15950,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16010,9 +16010,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16030,9 +16030,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16050,9 +16050,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16062,7 +16062,7 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
         "offset": 3,
       },
       "type": "data",
-      "value": "start a line comment.",
+      "value": "start a slash comment.",
     },
   ],
   [
@@ -16071,9 +16071,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16083,7 +16083,7 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
         "offset": 3,
       },
       "type": "data",
-      "value": "start a line comment.",
+      "value": "start a slash comment.",
     },
   ],
   [
@@ -16092,9 +16092,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16112,9 +16112,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16134,9 +16134,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16156,9 +16156,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16176,16 +16176,16 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "type": "eoc",
     },
@@ -16196,16 +16196,16 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "start": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 25,
+        "column": 26,
         "line": 1,
-        "offset": 24,
+        "offset": 25,
       },
       "type": "eoc",
     },
@@ -16213,7 +16213,7 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/01.txt",undefine
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("no-eol/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -16223,9 +16223,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16373,9 +16373,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16433,9 +16433,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16453,9 +16453,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16473,9 +16473,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16485,7 +16485,7 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
         "offset": 2,
       },
       "type": "data",
-      "value": "cannot be a line comment.",
+      "value": "cannot be a slash comment.",
     },
   ],
   [
@@ -16494,9 +16494,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16506,7 +16506,7 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
         "offset": 2,
       },
       "type": "data",
-      "value": "cannot be a line comment.",
+      "value": "cannot be a slash comment.",
     },
   ],
   [
@@ -16515,9 +16515,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16535,9 +16535,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16557,9 +16557,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16579,9 +16579,9 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": 0,
@@ -16599,16 +16599,16 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "type": "eoc",
     },
@@ -16619,16 +16619,16 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "start": {
         "_bufferIndex": -1,
         "_index": 1,
-        "column": 28,
+        "column": 29,
         "line": 1,
-        "offset": 27,
+        "offset": 28,
       },
       "type": "eoc",
     },
@@ -16636,7 +16636,7 @@ exports[`e2e:lineComments > should parse line comments ("no-eol/02.txt",undefine
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("opener-only/01.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("opener-only/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -16853,7 +16853,7 @@ exports[`e2e:lineComments > should parse line comments ("opener-only/01.txt",und
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("opener-only/02.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("opener-only/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -17114,7 +17114,7 @@ exports[`e2e:lineComments > should parse line comments ("opener-only/02.txt",und
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("opener-only/03.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("opener-only/03.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -17373,7 +17373,7 @@ exports[`e2e:lineComments > should parse line comments ("opener-only/03.txt",und
 ]
 `;
 
-exports[`e2e:lineComments > should parse line comments ("opener-only/04.txt",undefined) 1`] = `
+exports[`e2e:slashComments > should parse slash comments ("opener-only/04.txt",undefined) 1`] = `
 [
   [
     "enter",

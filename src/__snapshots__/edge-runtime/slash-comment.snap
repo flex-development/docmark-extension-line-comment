@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:slashComment > should be named comment construct 1`] = `
+{
+  "continuation": {
+    "tokenize": [Function tokenizeslashCommentContinuation],
+  },
+  "exit": [Function exitslashComment],
+  "name": "comment:slash",
+  "tokenize": [Function tokenizeslashComment],
+}
+`;
