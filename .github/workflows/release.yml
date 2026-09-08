@@ -113,7 +113,10 @@ jobs:
         run: yq '.build="${{ github.event.pull_request.merge_commit_sha }}"' -i package.json
       - id: pack
         name: Pack project
-        run: npm pack
+        run: |
+          mv CHANGELOG.md _CHANGELOG.md
+          yarn pack --out %s-%v.tgz
+          mv _CHANGELOG.md CHANGELOG.md
       - id: release-notes
         name: Generate release notes
         env:
