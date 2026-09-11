@@ -2,6 +2,8 @@
 
 exports[`e2e:docmark-extension-shell > should expose public api 1`] = `
 [
+  "shellComment",
   "default",
+  "shellComments",
 ]
 `;

@@ -23,6 +23,8 @@
 - [Install](#install)
 - [Use](#use)
 - [API](#api)
+  - [`shellComments`][api-shell-comments]
+  - [`shellComment`][api-shell-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -74,7 +76,17 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-**TODO**: api
+This package exports the identifiers [`shellComment`][api-shell-comment] and [`shellComments`][api-shell-comments].
+
+The default export is `shellComments`.
+
+### [`shellComments`](./src/comments.mts)
+
+**TODO**: `shellComments`
+
+### [`shellComment`](./src/comment.mts)
+
+**TODO**: `shellComment`
 
 ## Types
 
@@ -97,6 +109,10 @@ By interacting with this repository, organization, or community you agree to abi
 
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
+
+[api-shell-comment]: #shellcomment
+
+[api-shell-comments]: #shellcomments
 
 [docmark]: https://github.com/flex-development/docmark
 
