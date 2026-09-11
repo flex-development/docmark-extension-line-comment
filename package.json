@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/docmark-extension-shell",
   "description": "docmark extension to support shell comment syntax",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.3",
   "keywords": [
     "bash",
     "comment",
