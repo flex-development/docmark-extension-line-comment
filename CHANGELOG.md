@@ -1,3 +1,13 @@
+## [1.0.0-alpha.4](https://github.com/flex-development/docmark-extension-shell/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2026-09-11)
+
+### :package: Build
+
+- [[`4144645`](https://github.com/flex-development/docmark-extension-shell/commit/4144645967a39ad91e8093b6ac99edffe9de5209)] **deps-dev:** Bump cspell from 10.2.2 to 10.3.0 ([#20](https://github.com/flex-development/docmark-extension-shell/issues/20))
+
+### :sparkles: Features
+
+- [[`02bd82e`](https://github.com/flex-development/docmark-extension-shell/commit/02bd82e52bdff21db2e1b0e2a74776fb530b25b6)] hashbang support
+
 ## [1.0.0-alpha.3](https://github.com/flex-development/docmark-extension-shell/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2026-09-10)
 
 ### ⚠ BREAKING CHANGES
@@ -37,5 +47,6 @@
 ### :mechanical_arm: Refactors
 
 - [[`a1c0904`](https://github.com/flex-development/docmark-extension-shell/commit/a1c0904b86d3147deac4cca841d0205c3edb30f9)] rename project
+
 
 
