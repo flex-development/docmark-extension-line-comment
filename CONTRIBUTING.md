@@ -15,8 +15,8 @@ Follow the steps below to setup your local development environment:
 1. Clone repository
 
    ```sh
-   git clone https://github.com/flex-development/docmark-extension-slash-comment
-   cd docmark-extension-slash-comment
+   git clone https://github.com/flex-development/docmark-extension-shell
+   cd docmark-extension-shell
    ```
 
 2. Install binaries with [Homebrew][]
@@ -292,7 +292,7 @@ A well-written issue
 When you're ready to submit your changes, open a pull request (PR) against `main`:
 
 ```sh
-https://github.com/flex-development/docmark-extension-slash-comment/compare/main...$branch
+https://github.com/flex-development/docmark-extension-shell/compare/main...$branch
 ```
 
 where `$branch` is the name of the branch you'd like to merge into `main`.

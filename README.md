@@ -1,20 +1,20 @@
-# docmark-extension-slash-comment
+# docmark-extension-shell
 
-[![github release](https://img.shields.io/github/v/release/flex-development/docmark-extension-slash-comment.svg?include_prereleases\&sort=date)](https://github.com/flex-development/docmark-extension-slash-comment/releases/latest)
-[![npm](https://img.shields.io/npm/v/@flex-development/docmark-extension-slash-comment.svg)](https://npmjs.com/package/@flex-development/docmark-extension-slash-comment)
-[![npm downloads](https://img.shields.io/npm/dm/@flex-development/docmark-extension-slash-comment.svg)](https://www.npmcharts.com/compare/@flex-development/docmark-extension-slash-comment?interval=30)
-[![minified bundle size](https://badgen.net/bundlephobia/min/@flex-development/docmark-extension-slash-comment?cache)](https://bundlephobia.com/package/@flex-development/docmark-extension-slash-comment)
-[![install size](https://packagephobia.now.sh/badge?p=@flex-development/docmark-extension-slash-comment)](https://packagephobia.now.sh/result?p=@flex-development/docmark-extension-slash-comment)
-[![tree shaking suppport](https://badgen.net/bundlephobia/tree-shaking/@flex-development/docmark-extension-slash-comment)](https://bundlephobia.com/package/@flex-development/docmark-extension-slash-comment)
-[![codecov](https://codecov.io/github/flex-development/docmark-extension-slash-comment/graph/badge.svg?token=ckvqqdDU6t)](https://codecov.io/github/flex-development/docmark-extension-slash-comment)
+[![github release](https://img.shields.io/github/v/release/flex-development/docmark-extension-shell.svg?include_prereleases\&sort=date)](https://github.com/flex-development/docmark-extension-shell/releases/latest)
+[![npm](https://img.shields.io/npm/v/@flex-development/docmark-extension-shell.svg)](https://npmjs.com/package/@flex-development/docmark-extension-shell)
+[![npm downloads](https://img.shields.io/npm/dm/@flex-development/docmark-extension-shell.svg)](https://www.npmcharts.com/compare/@flex-development/docmark-extension-shell?interval=30)
+[![minified bundle size](https://badgen.net/bundlephobia/min/@flex-development/docmark-extension-shell?cache)](https://bundlephobia.com/package/@flex-development/docmark-extension-shell)
+[![install size](https://packagephobia.now.sh/badge?p=@flex-development/docmark-extension-shell)](https://packagephobia.now.sh/result?p=@flex-development/docmark-extension-shell)
+[![tree shaking suppport](https://badgen.net/bundlephobia/tree-shaking/@flex-development/docmark-extension-shell)](https://bundlephobia.com/package/@flex-development/docmark-extension-shell)
+[![codecov](https://codecov.io/github/flex-development/docmark-extension-shell/graph/badge.svg?token=ckvqqdDU6t)](https://codecov.io/github/flex-development/docmark-extension-shell)
 [![module type: esm](https://img.shields.io/badge/module%20type-esm-brightgreen)](https://github.com/voxpelli/badges-cjs-esm)
-[![license](https://img.shields.io/github/license/flex-development/docmark-extension-slash-comment.svg)](LICENSE.md)
+[![license](https://img.shields.io/github/license/flex-development/docmark-extension-shell.svg)](LICENSE.md)
 [![conventional commits](https://img.shields.io/badge/-conventional%20commits-fe5196?logo=conventional-commits\&logoColor=ffffff)](https://conventionalcommits.org)
 [![typescript](https://img.shields.io/badge/-typescript-3178c6?logo=typescript\&logoColor=ffffff)](https://typescriptlang.org)
 [![vitest](https://img.shields.io/badge/-vitest-6e9f18?style=flat\&logo=vitest\&logoColor=ffffff)](https://vitest.dev)
 [![yarn](https://img.shields.io/badge/-yarn-2c8ebb?style=flat\&logo=yarn\&logoColor=ffffff)](https://yarnpkg.com)
 
-[`docmark`][docmark] extension to parse slash comments.
+[`docmark`][docmark] extension to support shell comment syntax.
 
 ## Contents
 
@@ -23,8 +23,6 @@
 - [Install](#install)
 - [Use](#use)
 - [API](#api)
-  - [`slashComments`][api-slash-comments]
-  - [`slashComment`][api-slash-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -46,7 +44,7 @@ This package is [ESM only][esm].
 In Node.js with [yarn][]:
 
 ```sh
-yarn add @flex-development/docmark-extension-slash-comment
+yarn add @flex-development/docmark-extension-shell
 ```
 
 <blockquote>
@@ -59,14 +57,14 @@ yarn add @flex-development/docmark-extension-slash-comment
 In Deno with [`esm.sh`][esmsh]:
 
 ```ts
-import { slashComments } from 'https://esm.sh/@flex-development/docmark-extension-slash-comment'
+import { shellComments } from 'https://esm.sh/@flex-development/docmark-extension-shell'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import { slashComments } from 'https://esm.sh/@flex-development/docmark-extension-slash-comment'
+  import { shellComments } from 'https://esm.sh/@flex-development/docmark-extension-shell'
 </script>
 ```
 
@@ -76,17 +74,7 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-This package exports the identifiers [`slashComments`][api-slash-comments] and [`slashComment`][api-slash-comment].
-
-The default export is `slashComments`.
-
-### [`slashComments`](./src/slash-comments.mts)
-
-**TODO**: `slashComments`
-
-### [`slashComment`](./src/slash-comment.mts)
-
-**TODO**: `slashComment`
+**TODO**: api
 
 ## Types
 
@@ -96,7 +84,7 @@ This package is fully typed with [TypeScript][].
 
 ### Version
 
-docmark-extension-slash-comment adheres to [semver][].
+docmark-extension-shell adheres to [semver][].
 
 ### Contribute
 
@@ -109,10 +97,6 @@ By interacting with this repository, organization, or community you agree to abi
 
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
-
-[api-slash-comment]: #slashComment
-
-[api-slash-comments]: #slashComments
 
 [docmark]: https://github.com/flex-development/docmark
 

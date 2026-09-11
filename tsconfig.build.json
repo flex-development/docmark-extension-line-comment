@@ -3,7 +3,7 @@
     "allowImportingTsExtensions": false,
     "allowJs": false,
     "checkJs": false,
-    "customConditions": ["docmark-extension-slash-comment"],
+    "customConditions": ["docmark-extension-shell"],
     "declarationMap": false,
     "noEmitOnError": true,
     "outDir": "dist",

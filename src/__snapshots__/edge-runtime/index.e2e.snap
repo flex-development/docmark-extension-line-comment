@@ -1,9 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`e2e:docmark-extension-slash-comment > should expose public api 1`] = `
+exports[`e2e:docmark-extension-shell > should expose public api 1`] = `
 [
-  "slashComment",
   "default",
-  "slashComments",
 ]
 `;
