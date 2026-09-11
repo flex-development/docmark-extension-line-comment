@@ -49,7 +49,8 @@ describe('e2e:comments', () => {
     ['opener-only/04.txt'],
     ['no-eol/01.txt'],
     ['no-eol/02.txt'],
-    ['multiline/01.txt']
+    ['multiline/01.txt'],
+    ['source/01.txt']
   ])('should parse shell comments (%j,%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))

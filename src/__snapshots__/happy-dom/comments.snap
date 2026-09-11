@@ -3,14 +3,25 @@
 exports[`unit:comments > should be extension 1`] = `
 {
   "source": {
-    "35": {
-      "continuation": {
-        "tokenize": [Function tokenizeShellCommentContinuation],
+    "35": [
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeHashbangContinuation],
+        },
+        "exit": [Function exitHashbang],
+        "name": "comment:hashbang",
+        "previous": [Function previousHashbang],
+        "tokenize": [Function tokenizeHashbang],
       },
-      "exit": [Function exitShellComment],
-      "name": "comment:shell",
-      "tokenize": [Function tokenizeShellComment],
-    },
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeShellCommentContinuation],
+        },
+        "exit": [Function exitShellComment],
+        "name": "comment:shell",
+        "tokenize": [Function tokenizeShellComment],
+      },
+    ],
   },
 }
 `;

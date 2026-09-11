@@ -121,7 +121,7 @@ function tokenizeShellComment(
 
     // open the comment container if not already open.
     if (!self.containerState.open) {
-      effects.enter(tt.comment, { _kind: kind.line, lang: lang.shell })
+      effects.enter(tt.comment, { kind: kind.line, lang: lang.shell })
       self.containerState.open = true
     }
 
